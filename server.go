@@ -8,7 +8,7 @@ import (
   	"bytes"
 )
 
-const HYPER_SWITCH_API_KEY = "YOUR_API_KEY"
+const HYPER_SWITCH_API_KEY = "HYPERSWITCH_API_KEY"
 const HYPER_SWITCH_API_BASE_URL = "https://sandbox.hyperswitch.io"
 
 func createPaymentHandler(w http.ResponseWriter, r *http.Request) {

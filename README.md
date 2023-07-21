@@ -14,4 +14,4 @@ build and run scripts you can use to start up the application.
 go run server.go
 ~~~
 
-3. The sample app is now accessible here : [http://localhost:4242/index.html](http://localhost:4242/index.html).
+3. The sample app will now be accessible here : [http://localhost:4242/index.html](http://localhost:4242/index.html).

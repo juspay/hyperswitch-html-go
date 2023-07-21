@@ -2,13 +2,13 @@ package main
 
 import (
 	"encoding/json"
-  "log"
+  	"log"
 	"fmt"
 	"net/http"
-  "bytes"
+  	"bytes"
 )
 
-const HYPER_SWITCH_API_KEY = "snd_c691ade6995743bd88c166ba509ff5da"
+const HYPER_SWITCH_API_KEY = "YOUR_API_KEY"
 const HYPER_SWITCH_API_BASE_URL = "https://sandbox.hyperswitch.io"
 
 func createPaymentHandler(w http.ResponseWriter, r *http.Request) {
